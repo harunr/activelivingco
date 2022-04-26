@@ -1,0 +1,338 @@
+html,
+body {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased !important;
+    color: #4c4c4d;
+}
+
+.laterLifeAssured a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #1d93b3;
+}
+
+.laterLifeAssured p {
+    line-height: 20px;
+    /*float: left;*/
+    margin: 0;
+    width: 100%;
+}
+
+.laterLifeAssured .container {
+    max-width: 960px;
+    padding: 0;
+}
+
+.laterLifeAssured .laterLifeHeader {
+    background: #4cc6bb;
+}
+
+.laterLifeAssured .laterLifeHeader .container {
+    padding: 10px 0;
+}
+
+.laterLifeAssured .laterLifeHeader .assurtedLogo {
+    width: 40%;
+    float: left;
+}
+
+.laterLifeAssured .laterLifeHeader .assurtedLogo img {
+    width: 70%;
+}
+
+.laterLifeAssured .laterLifeHeader .assuredHeadBanner {
+    width: 46.5%;
+    float: right;
+    padding-top: 3px;
+}
+
+.laterLifeAssured .laterLifeHeader .assuredHeadBanner img {
+    width: 100%;
+}
+
+.laterLifeAssured .assuredMain .container {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.laterLifeAssured .assuredMain .container h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    color: #484848;
+    letter-spacing: -1px;
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainLeft {
+    width: 625px;
+    float: left;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredTop,
+.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredMiddle,
+.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredMiddleBott,
+.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredOptions,
+.laterLifeAssured .assuredMain .container .assuredMainLeft .pageButton {
+    float: left;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredTop p,
+.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredMiddleBott p {
+    padding-bottom: 20px;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredMiddle p {
+    font-size: 21px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    letter-spacing: 0;
+    margin: 20px 0;
+    margin-top: 0;
+    padding: 30px;
+    line-height: 26px;
+    background: #ff6328;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredOptions ol {
+    counter-reset: li;
+    margin: 0;
+    padding-left: 0;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredOptions ol li {
+    position: relative;
+    margin: 0 0 6px 2em;
+    padding: 9px 8px;
+    list-style: none;
+    font-size: 17px;
+    margin-bottom: 10px;
+    background: #fafafa;
+    border-bottom: 1px solid #eee;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredOptions ol li:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    top: -4px;
+    left: -38px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #ff7800;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainLeft .pageButton {
+    padding: 25px 0 16px 0;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainLeft h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    line-height: 26px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color: #ff6328;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredPicture {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredPicture img {
+    width: 100%;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainRight {
+    width: 276px;
+    float: right;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainRight img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.laterLifeAssured .assuredMain .container .assuredMainRight img:last-child {
+    margin-bottom: 0;
+}
+
+.laterLifeAssured .assuredBtn {
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 22px 30px 22px 30px;
+    -webkit-appearance: none;
+    -webkit-transition: background-color 400ms ease-out;
+    -moz-transition: background-color 400ms ease-out;
+    transition: background-color 400ms ease-out;
+    background: #ff7800;
+}
+
+.laterLifeAssured .pulse {
+    animation-name: pulse;
+    -webkit-animation-name: pulse;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(0.9);
+    }
+    50% {
+        -webkit-transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0.9);
+    }
+}
+
+@-moz-keyframes pulse {
+    0% {
+        -moz-transform: scale(0.9);
+    }
+    50% {
+        -moz-transform: scale(1);
+    }
+    100% {
+        -moz-transform: scale(0.9);
+    }
+}
+
+.laterLifeAssured ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.laterLifeAssured .assuredFooter {
+    padding: 20px 50px 60px;
+    background: #4cc6bb;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.laterLifeAssured .assuredFooter img {
+    width: 220px;
+    margin-bottom: 17px;
+}
+
+.laterLifeAssured .assuredFooter p:first-of-type {
+    margin-bottom: 20px;
+}
+
+
+/* Media */
+
+@media (min-width: 220px) and (max-width: 414px) {
+	.laterLifeAssured .assuredMain .container .assuredMainLeft {
+		width: 100%;
+		float: none;
+		text-align:center;
+	}
+
+	.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredTop,
+	.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredMiddle,
+	.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredMiddleBott,
+	.laterLifeAssured .assuredMain .container .assuredMainLeft .assuredOptions,
+	.laterLifeAssured .assuredMain .container .assuredMainLeft .pageButton {
+		float: none;
+	}
+	a img{
+		width:100%;
+		height:auto;
+	}
+	.assuredMainRight{
+		text-align:center;
+	}
+	.assuredMainRight a{
+		margin:auto;
+	}
+}
+
+@media (min-width: 220px) and (max-width: 1023px) {
+    .laterLifeAssured p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .laterLifeAssured .assuredMain .container {
+        padding-top: 17px;
+    }
+    .laterLifeAssured .assuredMain .container h1 {
+        font-size: 25px;
+        padding-bottom: 14px;
+    }
+    .laterLifeAssured .assuredMain .container .assuredMainLeft,
+    .laterLifeAssured .assuredMain .container .assuredMainRight {
+        width: 100%;
+    }
+    .laterLifeAssured .assuredMain .container .assuredMainLeft h2 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .laterLifeAssured .assuredMain .container .assuredMainLeft .assuredTop p,
+    .laterLifeAssured .assuredMain .container .assuredMainLeft .assuredMiddleBott p {
+        padding-bottom: 9px;
+    }
+    .laterLifeAssured .assuredMain .container .assuredMainLeft .assuredMiddle p {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 20px;
+    }
+    .laterLifeAssured .assuredMain .container .assuredMainLeft .assuredOptions ol {
+        padding-left: 17px;
+    }
+    .laterLifeAssured .assuredMain .container .assuredMainLeft .assuredOptions ol li {
+        font-size: 15px;
+    }
+    .laterLifeAssured .assuredMain .container .assuredMainRight img {
+        max-width: 276px;
+        margin: auto;
+        display: inherit;
+    }
+    .laterLifeAssured .assuredBtn {
+        font-size: 20px;
+    }
+    .laterLifeAssured .assuredFooter {
+        padding: 25px 15px;
+    }
+}

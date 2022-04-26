@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="165" height="164" viewBox="0 0 165 164">
+    <g fill="none" fill-rule="evenodd" transform="translate(-22)">
+        <circle cx="53" cy="31" r="31" fill="#18B3B2"/>
+        <circle cx="147.5" cy="124.5" r="39.5" fill="#18B3B2"/>
+        <circle cx="97.5" cy="84.5" r="75.5" fill="#18B3B2"/>
+        <text fill="#FFF" font-family="ApercuPro-Bold, Apercu Pro" font-size="18" font-weight="bold" letter-spacing="1.125">
+            <tspan x="51.914" y="90">FEATURED</tspan>
+        </text>
+    </g>
+</svg>
